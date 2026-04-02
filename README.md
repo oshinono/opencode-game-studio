@@ -196,3 +196,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 - 💬 [Telegram](https://t.me/traftret) — Get help with OpenCode
 - 🐛 [Issues](https://github.com/traftG/opencode-game-studio/issues) — Report bugs
 - ☕ [Ko-fi](https://ko-fi.com/traft) — Support development# opencode-game-studio
+
