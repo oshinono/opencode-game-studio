@@ -60,6 +60,7 @@ domain lead) should delegate to specialists.
 | `unreal-specialist` | Unreal Engine 5 | Sonnet | Blueprint vs C++, GAS overview, UE subsystems, Unreal optimization |
 | `unity-specialist` | Unity | Sonnet | MonoBehaviour vs DOTS, Addressables, URP/HDRP, Unity optimization |
 | `godot-specialist` | Godot 4 | Sonnet | GDScript patterns, node/scene architecture, signals, Godot optimization |
+| `gamemaker-specialist` | GameMaker 2024 | Sonnet | GML patterns, room/object architecture, sequences, GameMaker optimization |
 
 ### Unreal Engine Sub-Specialists
 
@@ -86,3 +87,13 @@ domain lead) should delegate to specialists.
 | `godot-gdscript-specialist` | GDScript | Sonnet | Static typing, design patterns, signals, coroutines, GDScript performance |
 | `godot-shader-specialist` | Shaders/Rendering | Sonnet | Godot shading language, visual shaders, particles, post-processing |
 | `godot-gdextension-specialist` | GDExtension | Sonnet | C++/Rust bindings, native performance, custom nodes, build systems |
+
+### GameMaker Sub-Specialists
+
+| Agent | Subsystem | Model | When to Use |
+| ---- | ---- | ---- | ---- |
+| `gamemaker-performance-specialist` | Performance | Sonnet | Draw calls, object pooling, surface batching, profiling, memory management |
+| `gamemaker-shader-specialist` | Shaders/Rendering | Sonnet | GLSL ES shaders, shader passes, surfaces, post-processing effects |
+| `gamemaker-assets-specialist` | Asset Management | Sonnet | Sprite/audio assets, asset groups, included files, runtime loading |
+| `gamemaker-ui-specialist` | UI / Draw GUI | Sonnet | UI Layers, FlexPanel, draw_gui events, screen-space rendering |
+| `gamemaker-networking-specialist` | Networking | Sonnet | Rollback netcode, async networking, buffer management, multiplayer patterns |

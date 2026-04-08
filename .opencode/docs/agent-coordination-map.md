@@ -47,6 +47,13 @@
       godot-gdscript-specialist    -- GDScript: static typing, patterns, signals, performance
       godot-shader-specialist      -- Shaders: Godot shading language, visual shaders, VFX
       godot-gdextension-specialist -- Native: C++/Rust bindings, GDExtension, build systems
+
+    gamemaker-specialist -- GameMaker 2024 lead: GML patterns, rooms/objects, sequences
+      gamemaker-performance-specialist -- Performance: draw calls, object pooling, profiling
+      gamemaker-shader-specialist      -- Shaders: GLSL ES, shader passes, surfaces
+      gamemaker-assets-specialist      -- Assets: sprites, audio, asset groups, runtime loading
+      gamemaker-ui-specialist          -- UI: UI Layers, FlexPanel, draw_gui events
+      gamemaker-networking-specialist  -- Networking: rollback netcode, async, buffer management
 ```
 
 ### Legend

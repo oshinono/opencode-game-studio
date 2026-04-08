@@ -84,8 +84,8 @@ based on your game's needs (2D/3D, platforms, team size, language preferences).
 **Why this matters:** Once you set the engine, the system knows which
 engine-specialist agents to use. If you pick Godot, agents like
 `godot-specialist`, `godot-gdscript-specialist`, and `godot-shader-specialist`
-become your go-to experts. The Unity and Unreal specialists remain available
-but won't be primary.
+become your go-to experts. The Unity, Unreal, and GameMaker specialists remain
+available but won't be primary.
 
 > **Manual alternative:** You can also edit the Technology Stack section in
 > `OPENCODE.md` directly if you prefer.
@@ -935,7 +935,7 @@ to reduce coupling between the combat and UI systems.
 Engine specialists know:
 - Engine-specific patterns and anti-patterns
 - Performance optimization techniques for that engine
-- Proper use of engine subsystems (Godot signals, Unity Addressables, UE GAS)
+- Proper use of engine subsystems (Godot signals, Unity Addressables, UE GAS, GML sequences)
 - When to use native extensions vs scripting
 
 ### Step 5.5: Architecture Decision Records
@@ -1694,6 +1694,7 @@ and prepare a "known issues" post.
 | Godot-specific help | `godot-specialist` | 3 |
 | Unity-specific help | `unity-specialist` | 3 |
 | Unreal-specific help | `unreal-specialist` | 3 |
+| GameMaker-specific help | `gamemaker-specialist` | 3 |
 
 ### Agent Hierarchy
 
