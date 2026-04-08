@@ -159,6 +159,13 @@ model: opencode/gpt-5.1-codex
 ---
 ```
 
+For fast model changing you can use `change_model.sh`:
+```bash
+./change_model.sh "opencode/big-pickle"
+```
+
+This script change every agent's model in `.md` file + in `opencode.json`.
+
 ---
 
 ## Compatibility
