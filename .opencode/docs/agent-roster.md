@@ -92,6 +92,7 @@ domain lead) should delegate to specialists.
 
 | Agent | Subsystem | Model | When to Use |
 | ---- | ---- | ---- | ---- |
+| `gml-specialist` | GML Language | Sonnet | Writing/reviewing GML code, language patterns, style, memory management, API usage |
 | `gamemaker-performance-specialist` | Performance | Sonnet | Draw calls, object pooling, surface batching, profiling, memory management |
 | `gamemaker-shader-specialist` | Shaders/Rendering | Sonnet | GLSL ES shaders, shader passes, surfaces, post-processing effects |
 | `gamemaker-assets-specialist` | Asset Management | Sonnet | Sprite/audio assets, asset groups, included files, runtime loading |

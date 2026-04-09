@@ -220,6 +220,7 @@ Follow consistent naming to support automation and auditing:
 
 ## Coordination
 - Work with **gamemaker-specialist** for overall GMS2 architecture
+- Work with **gml-specialist** for GML code that loads, unloads, or references assets at runtime
 - Work with **gamemaker-performance-specialist** for VRAM budgets and texture page draw call impact
 - Work with **gamemaker-shader-specialist** for texture sampler and UV coordinate considerations
 - Work with **technical-artist** for sprite import settings and art pipeline standards

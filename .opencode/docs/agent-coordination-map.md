@@ -49,6 +49,7 @@
       godot-gdextension-specialist -- Native: C++/Rust bindings, GDExtension, build systems
 
     gamemaker-specialist -- GameMaker 2024 lead: GML patterns, rooms/objects, sequences
+      gml-specialist                   -- GML Language: code writing, review, patterns, style, API
       gamemaker-performance-specialist -- Performance: draw calls, object pooling, profiling
       gamemaker-shader-specialist      -- Shaders: GLSL ES, shader passes, surfaces
       gamemaker-assets-specialist      -- Assets: sprites, audio, asset groups, runtime loading

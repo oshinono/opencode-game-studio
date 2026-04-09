@@ -1695,6 +1695,7 @@ and prepare a "known issues" post.
 | Unity-specific help | `unity-specialist` | 3 |
 | Unreal-specific help | `unreal-specialist` | 3 |
 | GameMaker-specific help | `gamemaker-specialist` | 3 |
+| Write or review GML code | `gml-specialist` | 3 |
 
 ### Agent Hierarchy
 

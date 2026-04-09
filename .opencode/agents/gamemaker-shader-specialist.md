@@ -256,6 +256,7 @@ void main() {
 
 ## Coordination
 - Work with **gamemaker-specialist** for overall GMS2 architecture and event pipeline
+- Work with **gml-specialist** for GML code that sets shader uniforms, manages surfaces, and calls shader functions
 - Work with **gamemaker-performance-specialist** for GPU profiling and draw call budget
 - Work with **gamemaker-assets-specialist** for texture page layout affecting UV coordinates
 - Work with **technical-artist** for visual direction and effect specification

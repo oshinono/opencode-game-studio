@@ -314,6 +314,7 @@ Reference: https://partner.steamgames.com/doc/features/multiplayer/steamdatagram
 
 ## Coordination
 - Work with **gamemaker-specialist** for overall GMS2 architecture
+- Work with **gml-specialist** for GML buffer serialization code, async event handlers, and socket management patterns
 - Work with **network-programmer** for general netcode patterns and architecture review
 - Work with **security-engineer** for cheat prevention and server-side validation
 - Work with **gameplay-programmer** for input systems and game state serialization

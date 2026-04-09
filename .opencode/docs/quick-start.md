@@ -68,6 +68,7 @@ Ask yourself: "What department would handle this in a real studio?"
 | Create Godot shaders | `godot-shader-specialist` |
 | Build GDExtension modules | `godot-gdextension-specialist` |
 | Get GameMaker advice | `gamemaker-specialist` |
+| Write or review GML code | `gml-specialist` |
 | Optimize GML performance | `gamemaker-performance-specialist` |
 | Create GML shaders | `gamemaker-shader-specialist` |
 | Manage GMS2 assets/groups | `gamemaker-assets-specialist` |

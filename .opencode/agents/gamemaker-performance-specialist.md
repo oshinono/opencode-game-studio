@@ -232,6 +232,7 @@ if (!surface_exists(my_surface)) {
 
 ## Coordination
 - Work with **gamemaker-specialist** for overall GMS2 architecture
+- Work with **gml-specialist** for GML code patterns that affect performance (data structures, scope, with-loops)
 - Work with **gamemaker-assets-specialist** for texture group layout and VRAM budgets
 - Work with **gamemaker-shader-specialist** for GPU-side performance (overdraw, shader complexity)
 - Work with **performance-analyst** for cross-platform profiling and benchmark tracking

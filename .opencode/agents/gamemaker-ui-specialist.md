@@ -324,6 +324,7 @@ if (mouse_check_button(mb_none) == false || keyboard_check(vk_anykey)) {
 
 ## Coordination
 - Work with **gamemaker-specialist** for overall GMS2 architecture and object/event design
+- Work with **gml-specialist** for GML code that drives UI logic, state, and draw calls
 - Work with **gamemaker-performance-specialist** for Draw GUI draw call budget
 - Work with **gamemaker-assets-specialist** for UI sprite grouping (TG_SharedUI group)
 - Work with **gamemaker-shader-specialist** for UI shader effects (grayscale for disabled, glow)

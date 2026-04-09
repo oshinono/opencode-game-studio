@@ -80,7 +80,7 @@ Tier 3 — Specialists
 - **Godot**: `godot-specialist`, `godot-gdscript-specialist`, `godot-shader-specialist`, `godot-gdextension-specialist`
 - **Unity**: `unity-specialist`, `unity-dots-specialist`, `unity-shader-specialist`, `unity-addressables-specialist`, `unity-ui-specialist`
 - **Unreal**: `unreal-specialist`, `ue-gas-specialist`, `ue-blueprint-specialist`, `ue-replication-specialist`, `ue-umg-specialist`
-- **GameMaker**: `gamemaker-specialist`, `gamemaker-performance-specialist`, `gamemaker-shader-specialist`, `gamemaker-assets-specialist`, `gamemaker-ui-specialist`, `gamemaker-networking-specialist`
+- **GameMaker**: `gamemaker-specialist`, `gml-specialist`, `gamemaker-performance-specialist`, `gamemaker-shader-specialist`, `gamemaker-assets-specialist`, `gamemaker-ui-specialist`, `gamemaker-networking-specialist`
 
 ---
 

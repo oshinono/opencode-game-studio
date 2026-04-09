@@ -269,6 +269,11 @@
       "mode": "all",
       "model": "opencode/big-pickle"
     },
+    "gml-specialist": {
+      "description": "GML language specialist. Hands-on authority for writing, reviewing, and refactoring GML code: language features, style, patterns, memory management, and the full GML API surface.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
     "gamemaker-performance-specialist": {
       "description": "GMS2 performance specialist. Owns draw call batching, instance deactivation, texture pages, spatial partitioning, and per-platform profiling.",
       "mode": "all",
