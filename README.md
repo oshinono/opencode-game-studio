@@ -3,13 +3,13 @@
   <h1 align="center">OpenCode Game Studios</h1>
   <p align="center">
     Turn OpenCode into a full game development studio<br>
-    48 AI agents • 37 workflow skills • 100% Free (Big Pickle)
+    54 AI agents • 37 workflow skills • 100% Free (Big Pickle)
   </p>
 </p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href=".opencode/agents"><img src="https://img.shields.io/badge/agents-48-blueviolet" alt="48 Agents"></a>
+  <a href=".opencode/agents"><img src="https://img.shields.io/badge/agents-54-blueviolet" alt="54 Agents"></a>
   <a href=".opencode/skills"><img src="https://img.shields.io/badge/skills-37-green" alt="37 Skills"></a>
   <a href="https://opencode.ai"><img src="https://img.shields.io/badge/powered%20by-OpenCode-orange" alt="OpenCode"></a>
   <a href="https://ko-fi.com/traft"><img src="https://img.shields.io/badge/Support-Ko--fi-ff5e5b?logo=ko-fi" alt="Ko-fi"></a>
@@ -21,7 +21,7 @@
 
 Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking "does this actually fit the game's vision?"
 
-**OpenCode Game Studios** solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get **48 specialized agents** organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.
+**OpenCode Game Studios** solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get **54 specialized agents** organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.
 
 **100% Free** — Works with OpenCode's Big Pickle model (no API costs).
 
@@ -31,7 +31,7 @@ Building a game solo with AI is powerful — but a single chat session has no st
 
 | Category   | Count | Description                                                                                         |
 | ---------- | ----- | --------------------------------------------------------------------------------------------------- |
-| **Agents** | 48    | Specialized subagents across design, programming, art, audio, narrative, QA, and production         |
+| **Agents** | 54    | Specialized subagents across design, programming, art, audio, narrative, QA, and production         |
 | **Skills** | 37    | Slash commands for common workflows (`/start`, `/sprint-plan`, `/code-review`, `/brainstorm`, etc.) |
 | **Rules**  | 11    | Path-scoped coding standards                                                                        |
 
@@ -80,6 +80,7 @@ Tier 3 — Specialists
 - **Godot**: `godot-specialist`, `godot-gdscript-specialist`, `godot-shader-specialist`, `godot-gdextension-specialist`
 - **Unity**: `unity-specialist`, `unity-dots-specialist`, `unity-shader-specialist`, `unity-addressables-specialist`, `unity-ui-specialist`
 - **Unreal**: `unreal-specialist`, `ue-gas-specialist`, `ue-blueprint-specialist`, `ue-replication-specialist`, `ue-umg-specialist`
+- **GameMaker**: `gamemaker-specialist`, `gamemaker-gml-specialist`, `gamemaker-performance-specialist`, `gamemaker-shader-specialist`, `gamemaker-assets-specialist`, `gamemaker-ui-specialist`, `gamemaker-networking-specialist`
 
 ---
 

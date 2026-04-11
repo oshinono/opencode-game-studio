@@ -263,6 +263,41 @@
       "description": "Unreal UMG/CommonUI specialist. Implements UI in UE.",
       "mode": "all",
       "model": "opencode/big-pickle"
+    },
+    "gamemaker-specialist": {
+      "description": "GameMaker Studio 2 engine specialist. Authority on GML architecture, object/event design, project structure, and GMS2 best practices.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
+    "gamemaker-gml-specialist": {
+      "description": "GML language specialist. Hands-on authority for writing, reviewing, and refactoring GML code: language features, style, patterns, memory management, and the full GML API surface.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
+    "gamemaker-performance-specialist": {
+      "description": "GMS2 performance specialist. Owns draw call batching, instance deactivation, texture pages, spatial partitioning, and per-platform profiling.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
+    "gamemaker-shader-specialist": {
+      "description": "GMS2 shader specialist. Owns GLSL ES shaders, surface-based post-processing, shader uniforms, and visual effect optimization.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
+    "gamemaker-assets-specialist": {
+      "description": "GMS2 assets specialist. Owns texture groups, texture page packing, audio groups, sprite import settings, and VRAM budgets.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
+    "gamemaker-ui-specialist": {
+      "description": "GMS2 UI specialist. Owns Draw GUI event layer, HUD systems, menu screen stacks, sequences for UI animation, and cross-platform input handling.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
+    },
+    "gamemaker-networking-specialist": {
+      "description": "GMS2 networking specialist. Owns socket architecture, buffer design, UDP/TCP packets, Async Networking event, rollback/lockstep netcode, and Steam SDR integration.",
+      "mode": "all",
+      "model": "opencode/big-pickle"
     }
   }
 }

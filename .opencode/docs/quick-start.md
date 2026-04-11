@@ -3,10 +3,10 @@
 ## What Is This?
 
 This is a complete Opencode agent architecture for game development. It
-organizes 48 specialized AI agents into a studio hierarchy that mirrors
+organizes 54 specialized AI agents into a studio hierarchy that mirrors
 real game development teams, with defined responsibilities, delegation
 rules, and coordination protocols. It includes engine-specialist agents
-for Godot, Unity, and Unreal — each with dedicated sub-specialists for
+for Godot, Unity, Unreal, and GameMaker — each with dedicated sub-specialists for
 major engine subsystems. All design agents and templates are grounded in
 established game design theory (MDA Framework, Self-Determination Theory,
 Flow State, Bartle Player Types). Use whichever engine set matches your project.
@@ -67,6 +67,13 @@ Ask yourself: "What department would handle this in a real studio?"
 | Write idiomatic GDScript | `godot-gdscript-specialist` |
 | Create Godot shaders | `godot-shader-specialist` |
 | Build GDExtension modules | `godot-gdextension-specialist` |
+| Get GameMaker advice | `gamemaker-specialist` |
+| Write or review GML code | `gamemaker-gml-specialist` |
+| Optimize GML performance | `gamemaker-performance-specialist` |
+| Create GML shaders | `gamemaker-shader-specialist` |
+| Manage GMS2 assets/groups | `gamemaker-assets-specialist` |
+| Design GameMaker UI | `gamemaker-ui-specialist` |
+| Implement GMS2 networking | `gamemaker-networking-specialist` |
 | Plan live events and seasons | `live-ops-designer` |
 | Write patch notes for players | `community-manager` |
 | Brainstorm a new game idea | Use `/brainstorm` skill |
@@ -218,7 +225,7 @@ If you have design docs, prototypes, or code already:
 OPENCODE.md                          -- Master config (read this first, ~60 lines)
 .opencode/
   settings.json                    -- Opencode hooks and project settings
-  agents/                          -- 48 agent definitions (YAML frontmatter)
+  agents/                          -- 54 agent definitions (YAML frontmatter)
   skills/                          -- 37 slash command definitions (YAML frontmatter)
   hooks/                           -- 8 hook scripts (.sh) wired by settings.json
   rules/                           -- 11 path-specific rule files

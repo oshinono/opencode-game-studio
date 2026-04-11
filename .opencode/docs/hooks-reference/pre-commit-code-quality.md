@@ -42,6 +42,7 @@ if [ -n "$CODE_FILES" ]; then
         # For GDScript: gdlint "$file" || EXIT_CODE=1
         # For C#: dotnet format --check "$file" || EXIT_CODE=1
         # For C++: clang-format --dry-run -Werror "$file" || EXIT_CODE=1
+        # For GML: No standard linter available (manual review recommended)
     done
 
     # Run unit tests for modified systems

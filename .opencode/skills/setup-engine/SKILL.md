@@ -34,24 +34,25 @@ If no engine is specified, run an interactive engine selection process:
 1. **What kind of game?** (2D, 3D, or both?)
 2. **What platforms?** (PC, mobile, console, web?)
 3. **Team size and experience?** (solo beginner, solo experienced, small team?)
-4. **Any strong language preferences?** (GDScript, C#, C++, visual scripting?)
+4. **Any strong language preferences?** (GDScript, C#, C++, GML, visual scripting?)
 5. **Budget for engine licensing?** (free only, or commercial licenses OK?)
 
 ### Produce a recommendation
 
 Use this decision matrix:
 
-| Factor | Godot 4 | Unity | Unreal Engine 5 |
-|--------|---------|-------|-----------------|
-| **Best for** | 2D games, small 3D, solo/small teams | Mobile, mid-scope 3D, cross-platform | AAA 3D, photorealism, large teams |
-| **Language** | GDScript (+ C#, C++ via extensions) | C# | C++ / Blueprint |
-| **Cost** | Free, MIT license | Free under revenue threshold | Free under revenue threshold, 5% royalty |
-| **Learning curve** | Gentle | Moderate | Steep |
-| **2D support** | Excellent (native) | Good (but 3D-first engine) | Possible but not ideal |
-| **3D quality ceiling** | Good (improving rapidly) | Very good | Best-in-class |
-| **Web export** | Yes (native) | Yes (limited) | No |
-| **Console export** | Via third-party | Yes (with license) | Yes |
-| **Open source** | Yes | No | Source available |
+| Factor | Godot 4 | Unity | Unreal Engine 5 | GameMaker Studio 2 |
+|--------|---------|-------|-----------------|-------------------|
+| **Best for** | 2D games, small 3D, solo/small teams | Mobile, mid-scope 3D, cross-platform | AAA 3D, photorealism, large teams | 2D games, pixel art, indie/small teams, rapid iteration |
+| **Language** | GDScript (+ C#, C++ via extensions) | C# | C++ / Blueprint | GML (JavaScript-like) |
+| **Cost** | Free, MIT license | Free under revenue threshold | Free under revenue threshold, 5% royalty | $99/year (Professional), $499/year (Studio) |
+| **Learning curve** | Gentle | Moderate | Steep | Very gentle |
+| **2D support** | Excellent (native) | Good (but 3D-first engine) | Possible but not ideal | Best-in-class (purpose-built) |
+| **3D support** | Limited | Very good | Best-in-class | Limited (not recommended) |
+| **Web export** | Yes (native) | Yes (limited) | No | Yes (HTML5) |
+| **Console export** | Via third-party | Yes (with license) | Yes | Yes (Switch, PlayStation, Xbox) |
+| **Marketplace** | Growing ecosystem | Massive | Massive | Moderate but focused on 2D |
+| **Prototyping speed** | Fast | Moderate | Slow | Very fast |
 
 Present the top 1-2 recommendations with reasoning tied to the user's answers.
 Let the user choose — never force a recommendation.
@@ -98,6 +99,14 @@ Read `OPENCODE.md` and update the Technology Stack section. Replace the
 - **Asset Pipeline**: Unreal Content Pipeline
 ```
 
+**For GameMaker Studio 2:**
+```markdown
+- **Engine**: GameMaker Studio [version]
+- **Language**: GML (GameMaker Language)
+- **Build System**: GameMaker Build Pipeline (runners: VM / YYC)
+- **Asset Pipeline**: GameMaker Asset Pipeline (sprites, sounds, rooms, objects, shaders)
+```
+
 ---
 
 ## 5. Populate Technical Preferences
@@ -132,6 +141,15 @@ engine-appropriate defaults. Read the existing template first, then fill in:
 - Functions: PascalCase (e.g., `TakeDamage()`)
 - Booleans: `b` prefix (e.g., `bIsAlive`)
 - Files: Match class without prefix (e.g., `PlayerController.h`)
+
+**For GameMaker Studio 2 (GML):**
+- Object names: PascalCase (e.g., `obj_Player`, `obj_Enemy`)
+- Variables: snake_case (e.g., `move_speed`, `max_health`)
+- Functions/Scripts: snake_case (e.g., `apply_damage()`, `calculate_knockback()`)
+- Macros: UPPER_SNAKE_CASE (e.g., `TILE_SIZE`, `MAX_ENEMIES`)
+- Enums: PascalCase (e.g., `enum Direction { Up, Down, Left, Right }`)
+- Events: Implicit (onCreate, onStep, onDraw — handled via event system)
+- Files: snake_case matching resource (e.g., `player_controller.gml`)
 
 ### Remaining Sections
 - Performance Budgets: Leave as `[TO BE CONFIGURED]` with a suggestion:

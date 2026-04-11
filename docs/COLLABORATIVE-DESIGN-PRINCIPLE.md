@@ -681,7 +681,7 @@ WHEN implementing:
 This principle has been fully embedded across the project:
 
 - **OPENCODE.md** — Collaboration protocol section added
-- **All 48 agent definitions** — Updated to enforce question-asking and approval
+- **All 54 agent definitions** — Updated to enforce question-asking and approval
 - **All skills** — Updated to require approval before writing
 - **WORKFLOW-GUIDE.md** — Rewritten with collaborative examples
 - **README.md** — Clarifies collaborative (not autonomous) design

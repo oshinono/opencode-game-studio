@@ -177,7 +177,7 @@ who this game is actually for:
 
 Ground the concept in reality:
 
-- **Engine recommendation** (Godot / Unity / Unreal) with reasoning based
+- **Engine recommendation** (Godot / Unity / Unreal / GameMaker) with reasoning based
   on concept needs, team expertise, and platform targets
 - **Art pipeline**: What's the art style and how labor-intensive is it?
 - **Content scope**: Estimate level/area count, item count, gameplay hours

@@ -18,7 +18,7 @@ visual quality, performance, and cross-platform compatibility.
 
 ## Code Quality
 - All uniforms/parameters must have descriptive names and appropriate hints
-- Group related parameters (Godot: `group_uniforms`, Unity: `[Header]`, Unreal: Category)
+- Group related parameters (Godot: `group_uniforms`, Unity: `[Header]`, Unreal: Category, GameMaker: comments)
 - Comment non-obvious calculations (especially math-heavy sections)
 - No magic numbers — use named constants or documented uniform values
 - Include authorship and purpose comment at the top of each shader file
